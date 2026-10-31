@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>AirShade</string>
+<key>CFBundleIdentifier</key><string>dev.breno.AirShade</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundleName</key><string>AirShade</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.1.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>LSUIElement</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSMotionUsageDescription</key><string>AirShade uses AirPods head motion to cover your displays when you look away.</string>
+<key>NSScreenCaptureUsageDescription</key><string>AirShade creates temporary, in-memory snapshots to blur your displays. Images are never saved or uploaded.</string>
+</dict></plist>

@@ -1,0 +1,34 @@
+.build/
+dist/
+DerivedData/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local tools, notes, build products and signing configuration
+.codex/
+.agents/
+.swiftpm/
+VALIDATION.md
+Config/Signing.local.xcconfig
+*.local.xcconfig
+*.log
+*.xcresult/
+*.app/
+*.dmg
+*.zip
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+credentials*.json
+secrets*.json

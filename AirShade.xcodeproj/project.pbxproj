@@ -1,0 +1,36 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+000000000000000000000082 = { isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Config/Signing.xcconfig"; sourceTree = SOURCE_ROOT; };
+000000000000000000000081 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/Views/OnboardingView.swift"; sourceTree = SOURCE_ROOT; };
+000000000000000000000481 = { isa = PBXBuildFile; fileRef = 000000000000000000000081; };
+000000000000000000000080 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = Resources/AppIcon.icns; sourceTree = SOURCE_ROOT; };
+000000000000000000000480 = { isa = PBXBuildFile; fileRef = 000000000000000000000080; };
+000000000000000000000064 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/App/AirShadeApp.swift"; sourceTree = SOURCE_ROOT; };
+00000000000000000000044C = { isa = PBXBuildFile; fileRef = 000000000000000000000064; };
+000000000000000000000065 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/App/AppModel.swift"; sourceTree = SOURCE_ROOT; };
+00000000000000000000044D = { isa = PBXBuildFile; fileRef = 000000000000000000000065; };
+000000000000000000000066 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/Services/GlobalShortcuts.swift"; sourceTree = SOURCE_ROOT; };
+00000000000000000000044E = { isa = PBXBuildFile; fileRef = 000000000000000000000066; };
+000000000000000000000067 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/Services/HeadphoneMotion.swift"; sourceTree = SOURCE_ROOT; };
+00000000000000000000044F = { isa = PBXBuildFile; fileRef = 000000000000000000000067; };
+000000000000000000000068 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/Services/OverlayService.swift"; sourceTree = SOURCE_ROOT; };
+000000000000000000000450 = { isa = PBXBuildFile; fileRef = 000000000000000000000068; };
+000000000000000000000069 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShade/Views/SetupView.swift"; sourceTree = SOURCE_ROOT; };
+000000000000000000000451 = { isa = PBXBuildFile; fileRef = 000000000000000000000069; };
+00000000000000000000006A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/AirShadeCore/PrivacyEngine.swift"; sourceTree = SOURCE_ROOT; };
+000000000000000000000452 = { isa = PBXBuildFile; fileRef = 00000000000000000000006A; };
+000000000000000000000001 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = 00000000000000000000000A; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = 000000000000000000000002; productRefGroup = 000000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (000000000000000000000005); };
+000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000082,000000000000000000000081,000000000000000000000080,000000000000000000000064,000000000000000000000065,000000000000000000000066,000000000000000000000067,000000000000000000000068,000000000000000000000069,00000000000000000000006A,000000000000000000000003); sourceTree = "<group>"; };
+000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000004); name = Products; sourceTree = "<group>"; };
+000000000000000000000004 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirShade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000005 = { isa = PBXNativeTarget; buildConfigurationList = 00000000000000000000000B; buildPhases = (000000000000000000000006,000000000000000000000007,000000000000000000000008); buildRules = (); dependencies = (); name = AirShade; productName = AirShade; productReference = 000000000000000000000004; productType = "com.apple.product-type.application"; };
+000000000000000000000006 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000481,00000000000000000000044C,00000000000000000000044D,00000000000000000000044E,00000000000000000000044F,000000000000000000000450,000000000000000000000451,000000000000000000000452); runOnlyForDeploymentPostprocessing = 0; };
+000000000000000000000007 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+000000000000000000000008 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000480); runOnlyForDeploymentPostprocessing = 0; };
+00000000000000000000000A = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000014,000000000000000000000015); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+00000000000000000000000B = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000016,000000000000000000000017); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+000000000000000000000014 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+000000000000000000000015 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+000000000000000000000016 = { isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000082; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_BUNDLE_IDENTIFIER = dev.breno.AirShade; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = Resources/Info.plist; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+000000000000000000000017 = { isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000082; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; PRODUCT_BUNDLE_IDENTIFIER = dev.breno.AirShade; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = Resources/Info.plist; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+}; rootObject = 000000000000000000000001; }

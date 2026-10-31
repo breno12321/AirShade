@@ -1,0 +1,3 @@
+// Copy to Signing.local.xcconfig (ignored by Git) and enter your own team.
+CODE_SIGN_IDENTITY = Apple Development
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
